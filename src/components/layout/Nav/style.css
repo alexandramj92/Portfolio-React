@@ -1,0 +1,18 @@
+header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorPrimary.mui-fixed.MuiPaper-elevation4 {
+    background-color: white;
+}
+
+div.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+    background-color: white!important;
+    color: black;
+    margin-left: auto;
+}
+#nav {
+    position: relative;
+    z-index: 3;
+    
+}
+
+#nav-img {
+    width: 50px;
+}

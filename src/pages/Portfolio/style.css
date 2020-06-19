@@ -1,0 +1,32 @@
+#portfolio-container {
+    height: 100%;
+    padding-top: 100px;
+    background: -webkit-linear-gradient(210deg, #e499be 25%, white 25%);
+    background: -o-linear-gradient(210deg, #e499be 25%, white 25%);
+    background: -moz-linear-gradient(210deg, #e499be 25%, white 25%);
+    background: linear-gradient(210deg, #e499be 25%, white 25%);
+    background-size: cover;
+    
+}
+
+#port-title {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.port-img {
+    width: 250px;
+}
+
+.port-img-grid {
+    text-align: center;
+}
+
+.port-btn {
+    background-color: #e499be!important;
+}
+
+.port-card {
+    padding: 10px;
+}

@@ -1,0 +1,33 @@
+#contact-cont {
+    padding-top: 70px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#contact-btn {
+    background-color: #e499be!important;
+
+
+}
+
+#send-icon {
+    margin-right: 10px;
+}
+
+
+
+.text-div {
+    margin-left: -8px;
+}
+
+.text-field {
+    width: 400px;
+}
+
+@media only screen and (max-width: 400px) {
+
+.text-field {
+    width: 325px;
+}
+
+}
