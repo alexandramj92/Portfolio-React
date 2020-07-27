@@ -8,7 +8,8 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Zoe from '../../img/zoe.png';
 import Yarn from '../../img/Yarn-app.png';
-import Tiki from '../../img/tiki-img.png';
+import Chelsea from '../../img/chelsea-logo.png';
+import { pink } from '@material-ui/core/colors';
 
 
 require ('./style.css');
@@ -48,7 +49,35 @@ export default function Portfolio() {
     //   justify="center"
     //   alignItems="flex-start"
       >
-      {/*Project 1 */}
+      {/* Project 1 */}
+      <Grid className ="port-img-grid" item xs={12} sm={6} md={4} lg={4} xl={4} >  
+            <img className = "port-img" src= {Chelsea}/>
+        </Grid>
+        <Grid item xs={12} sm={6}  md={5} lg={5} xl={5}>
+          <Card className = "port-card">
+            <CardContent>
+            <h2>Chocolate Bar Customizer</h2>
+            <h3 ><a className="compLink" target="_blank" href="https://chelseaandthechocolatefactory.com/">Chelsea and the Chocolate Factory</a></h3>
+
+            <p> Web application that allows customers to personalize their chocolate bar wrapper. 
+            They can choose the logo, the wrapper design, a personal message, font, font color...etc. 
+            They can see a preview as they make their selections. I improved my file management skills by working 
+            on the image upload feature customers use to upload custom designs and learned to use 
+            cloudinary to store images and create a unique url. I enhanced my understanding of React 
+            and how to break the app down into efficient and concise components. Sass was used 
+            throughout for styling to ensure cohesiveness.</p>
+
+            </CardContent>
+            <CardActions>
+            <Button target="_blank" href="https://chelsea-chocolate-factory.herokuapp.com/" className="port-btn" variant="contained">See Website</Button>
+           
+            <Button target="_blank" href="https://github.com/alexandramj92/custom-chocolate" className="port-btn" variant="contained">See Code</Button>
+
+            </CardActions>
+             
+          </Card>
+        </Grid>
+      {/*Project 2 */}
         <Grid className ="port-img-grid" item xs={12} sm={6} md={4} lg={4} xl={4} >  
             <img className = "port-img" src= {Zoe} />
         </Grid>
@@ -56,7 +85,7 @@ export default function Portfolio() {
           <Card className = "port-card">
             <CardContent>
             <h2>Zoe - Web App for Teachers</h2>
-            <h3>Apelab, Los Angeles</h3>
+          <h3><a className="compLink" target="_blank" href="https://www.apelab.io/">Apelab, Los Angeles</a></h3>
 
             <p> Web application that works alongside educational VR app, Zoe. Zoe aims at providing educators around the world the necessary tools, knowledge and support to integrate Virtual and Augmented Reality Creation into their curriculum. The web app allows teachers to login, create projects, and assign students to those projects.
             When a new project is created, a unique code is generated for that project. Teachers share this code with their students so that they can use it to login to their project in the VR app and collaborate with their fellow classmates.
@@ -75,7 +104,7 @@ export default function Portfolio() {
         <Grid item xs={12}  md={3} lg={3} xl={3}> </Grid>
 
 
-        {/* Project 2 */}
+        {/* Project 3 */}
         <Grid className ="port-img-grid" item xs={12} sm={6} md={4} lg={4} xl={4} >  
             <img className = "port-img" src= {Yarn} />
         </Grid>
@@ -83,7 +112,7 @@ export default function Portfolio() {
           <Card className = "port-card">
             <CardContent>
             <h2>Yarn - Mobile Preview Module</h2>
-            <h3>Mammoth Media, Santa Monica</h3>
+            <h3><a className="compLink" target="_blank" href="https://mammoth.la/">Mammoth Media, Santa Monica</a></h3>
 
             <p>Mobile preview module on existing admin interface for story-telling mobile app, Yarn. 
             The content team needed a way to preview what a story would look before pushing it live to the mobile app. The content team is now able to upload a csv file
@@ -102,28 +131,7 @@ export default function Portfolio() {
         </Grid>
         <Grid item xs={12}  md={3} lg={3} xl={3}> </Grid>
 
-        {/* Project 3 */}
-        <Grid className ="port-img-grid" item xs={12} sm={6} md={4} lg={4} xl={4} >  
-            <img className = "port-img" src= {Tiki} />
-        </Grid>
-        <Grid item xs={12} sm={6}  md={5} lg={5} xl={5}>
-          <Card className = "port-card">
-            <CardContent>
-            <h2>Taco Truck Website</h2>
-            <h3>Tiki Soul, Los Angeles</h3>
-
-            <p> Website for Los Angeles Taco Truck owner who wanted to increase their online presence and attract more customers. Fully functional website built using HTML, CSS, and JavaScript.JS. The map on the homepage uses Google Maps API to display a different address based on the day and a no-service image to indicate when the taco truck is not open for business. Contact form links to google spreadsheet to display the person's contact information and message as well as sending an email directly to the business owner.</p>
-
-            </CardContent>
-            <CardActions>
-            <Button target="_blank" href="https://alexandramj92.github.io/food-truck-project1/index.html" className="port-btn" variant="contained">See Website</Button>
-           
-            <Button target="_blank" href=" https://github.com/alexandramj92/TikiSoul-Website" className="port-btn" variant="contained">See Code</Button>
-
-            </CardActions>
-             
-          </Card>
-        </Grid>
+        
         <Grid item xs={12}  md={3} lg={3} xl={3}> </Grid>
 
 
