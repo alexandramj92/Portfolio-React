@@ -53,14 +53,12 @@ export default function ButtonAppBar() {
   return (
     <div id="nav" className={classes.root}>
       <AppBar>
-
         <Toolbar>
         <img id="nav-img" src={logo} />
-         
          <Button color="inherit" onClick={handleHome}>Home</Button>
          <Button color="inherit" onClick={handlePort}>Projects</Button>
          <Button color="inherit" onClick={handleAbout}>About</Button>
-          <Button color="inherit" onClick={handleContact}>Contact</Button>
+         <Button color="inherit" onClick={handleContact}>Contact</Button>
         </Toolbar>
       </AppBar>
     </div>
