@@ -5,25 +5,21 @@ import Nav from './components/layout/Nav';
 import Portfolio from './pages/Portfolio/index';
 import About from './pages/About/index';
 import Contact from './pages/Contact/index';
+import YarnDetail from './pages/YarnDetail/index';
 import { Router } from '@reach/router';
-
 
 function App() {
   return (
     <div>
-
       <Nav/>
       <Router>
-         <HomePage path="/"></HomePage>
-         <Portfolio path="/portfolio"></Portfolio>
-         <About path="/about"></About>
-         <Contact path="/contact"></Contact>
-
+         <HomePage path="/"/>
+         <Portfolio path="/portfolio"/>
+         <About path="/about"/>
+         <Contact path="/contact"/>
+         <YarnDetail path="/yarndetail"/>
       </Router>
-
-
     </div>
-  
   );
 }
 

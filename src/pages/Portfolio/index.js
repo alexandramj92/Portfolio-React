@@ -9,7 +9,7 @@ import Button from '@material-ui/core/Button';
 import Zoe from '../../img/zoe.png';
 import Yarn from '../../img/Yarn-app.png';
 import Chelsea from '../../img/chelsea-logo.png';
-import { pink } from '@material-ui/core/colors';
+import { navigate } from '@reach/router';
 
 
 require ('./style.css');
@@ -37,6 +37,11 @@ const useStyles = makeStyles((theme) => ({
 export default function Portfolio() {
   const classes = useStyles();
 
+  const handleYarnDetail = event => {
+    event.preventDefault();
+    navigate('/yarndetail');
+  }
+
   return (
     <Container id="portfolio-container" maxWidth="xl">
 
@@ -45,9 +50,6 @@ export default function Portfolio() {
       <Grid 
       container 
       spacing={3}
-    //   direction="column"
-    //   justify="center"
-    //   alignItems="flex-start"
       >
       {/* Project 1 */}
       <Grid className ="port-img-grid" item xs={12} sm={6} md={4} lg={4} xl={4} >  
@@ -123,7 +125,7 @@ export default function Portfolio() {
   
             </CardContent>
             <CardActions>
-            <Button target="_blank" href="https://docs.google.com/document/d/1YiF5R8DGPxPX-ilKB8MtffKxcFd_HLTMxDmKx63VqOE/edit?usp=sharing" className="port-btn" variant="contained">See Details</Button>
+            <Button onClick={handleYarnDetail} className="port-btn" variant="contained">See Details</Button>
             <Button target="_blank" href="https://github.com/alexandramj92/Yarn-Mobile-Preview-Module" className="port-btn" variant="contained">See Code</Button>
             </CardActions>
              
