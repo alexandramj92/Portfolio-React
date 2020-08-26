@@ -9,14 +9,16 @@
     
 }
 
-.compLink:hover {
-    color: #584997;
-}
+
 
 #port-title {
     text-align: center;
     margin-bottom: 50px;
 
+}
+
+.compLink:hover {
+    color: #584997;
 }
 
 .port-img {

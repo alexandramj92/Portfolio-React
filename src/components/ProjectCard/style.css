@@ -1,0 +1,23 @@
+.projectCard.MuiGrid-item{
+    margin: auto;
+}
+
+.compLink:hover {
+    color: #584997;
+}
+
+.port-img {
+    width: 250px;
+}
+
+.port-img-grid {
+    text-align: center;
+}
+
+.port-btn {
+    background-color: #e499be!important;
+}
+
+.port-card {
+    padding: 10px;
+}

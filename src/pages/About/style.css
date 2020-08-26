@@ -15,9 +15,9 @@
 
 #about-paper {
     /* background-color: #e499be!important; */
-    width: 95%;
+    width: 80%;
     margin: auto;
-    padding: 50px;
+    padding: 7%;
     /* height: 400px; */
     position: relative;
 }
@@ -56,12 +56,11 @@
 }
 
 #about-img {
-    width: 370px;
-    height: 370px;
+    width: 80%;
     /* margin: 30px 0 30px 0; */
     /* margin-top: 20px; */
     /* border-radius: 50%; */
-    border : 25px solid #e499be;
+    border : 14px solid #e499be;
     /* shape-outside: circle(); */
 }
 
@@ -71,10 +70,10 @@
 
 }
 
-/* 
+
 #about-grid {
-    text-align: right;
-} */
+    text-align: justify;
+}
 /* 
 .circle {
     shape-outside: circle(300px);

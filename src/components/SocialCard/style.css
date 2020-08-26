@@ -16,7 +16,7 @@
     transform: rotate(15deg);
     top: 56px;
     right: 28px;
-    z-index: 2;
+    z-index: -1;
 }
 
 a {

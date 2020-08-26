@@ -2,11 +2,11 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Nav from '../../components/layout/Nav';
-import YarnDash from '../../img/yarnDash.png';
-import MobileSample from '../../img/mobile-sample.PNG';
-import RegularUp from '../../img/regular-upload.gif';
-import MissingChar from '../../img/missing-characters.gif';
-import ScreenSize from '../../img/Screen-size.gif';
+import YarnDash from '../../assets/img/yarnDash.png';
+import MobileSample from '../../assets/img/mobile-sample.PNG';
+import RegularUp from '../../assets/img/regular-upload.gif';
+import MissingChar from '../../assets/img/missing-characters.gif';
+import ScreenSize from '../../assets/img/Screen-size.gif';
 
 
 require ('./style.css');
