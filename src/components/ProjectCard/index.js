@@ -23,11 +23,11 @@ export default function ProjectCard(props) {
     const classes = useStyles();
 
   return (
-            <Grid className={classes.projectCard} container item xs={7} >
-                <Grid className ="port-img-grid" item xs={4} >  
+            <Grid className={classes.projectCard} container item xs={12} md={7}>
+                <Grid className ="port-img-grid" item xs={12} md={4} >  
                     <img className = "port-img" src= {props.imgSrc} />
                 </Grid>
-                <Grid item xs={8} >  
+                <Grid item xs={12} md={8} >  
                     <Card className = "port-card">
                         <CardContent>
                             <h2>{props.projectTitle}</h2>
