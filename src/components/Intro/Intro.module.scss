@@ -1,8 +1,5 @@
-#intro-container {
+#introContainer {
     width: 700px;
-    /* position: absolute;
-    z-index: 2; */
-    /* text-align: justify; */
     margin-top: 80px;
     padding: 15px;
 }
@@ -11,38 +8,36 @@
     margin-bottom: -40px;
 }
 
-.home-title {
+.homeTitle {
     font-size: 50px;
 }
 
-.home-p {
+.homeP {
     font-size: 18px;
 }
 
-
-
-#intro-btn {
+#introBtn {
     background-color: #e499be;
     font-size: 15px;
 }
 
 @media only screen and (max-width: 600px) {
-    #intro-container {
+    #introContainer {
         width: 425px;
     }
   }
 
   @media only screen and (max-width: 400px) {
-    #intro-container {
+    #introContainer {
         width: 325px;
         margin-top: 25px;
     }
 
-    .home-title {
+    .homeTitle {
         font-size: 30px;
     }
     
-    .home-p {
+    .homeP {
         font-size: 15px;
     }
 

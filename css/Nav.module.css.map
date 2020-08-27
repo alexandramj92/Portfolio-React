@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAC,CACD,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,CAAC,CACb,AAED,AAAA,OAAO,AAAC,CACJ,KAAK,CAAE,IAAI,CACd",
+    "sources": [
+        "../src/components/layout/Nav/Nav.module.scss"
+    ],
+    "names": [],
+    "file": "Nav.module.css"
+}
