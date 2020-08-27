@@ -1,14 +1,12 @@
-#home-container {
+#homeContainer {
     background-image: url('../../assets/img/homepage.png');
     height: 100vh;
     background-size: cover;
     padding-top: 100px;
-  
 }
 
-#mobile-phone {
+#mobilePhone {
   overflow: hidden!important;
-
 }
 
 #laptop {
@@ -16,12 +14,8 @@
   position: absolute;
 }
 
-
-
 @media only screen and (max-width: 600px) {
- #home-container {
+ #homeContainer {
    height: 150vh;
  }
-  
 }
-

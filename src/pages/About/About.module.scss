@@ -2,89 +2,63 @@
     box-sizing: border-box;
   }
   
-
-#about-cont {
+#aboutCont {
     height: 100vh;
     padding-top: 120px;
     background: -webkit-linear-gradient(330deg, #e499be 30%, white 30%);
     background: -o-linear-gradient(330deg, #e499be 30%, white 30%);
     background: -moz-linear-gradient(330deg, #e499be 30%, white 30%);
     background: linear-gradient(140deg, #e499be 30%, white 30%);
-    /* justify-content: center; */
 }
 
-#about-paper {
-    /* background-color: #e499be!important; */
+#aboutPaper {
     width: 80%;
     margin: auto;
     padding: 7%;
-    /* height: 400px; */
     position: relative;
 }
 
-#palm-one {
-
+#palmOne {
     top: -20px;
     left: -13px;
     transform: rotate(110deg);
 }
 
-#palm-two {
-
+#palmTwo {
     top: -27px;
     right: -6px;
     transform: rotate(204deg);
 }
 
-#palm-three {
-
+#palmThree {
     bottom: -23px;
     left: -4px;
     transform: rotate(21deg);
 }
 
-#palm-four {
-
+#palmFour {
     bottom: -19px;
     right: -9px;
     transform: rotate(-76deg);
 }
 
-.palm-img {
+.palmImg {
     width: 74px;
     position: absolute;
 }
 
-#about-img {
+#aboutImg {
     width: 80%;
-    /* margin: 30px 0 30px 0; */
-    /* margin-top: 20px; */
-    /* border-radius: 50%; */
     border : 14px solid #e499be;
-    /* shape-outside: circle(); */
 }
 
-#about-img-grid {
+#aboutImgGrid {
     text-align: center;
-    /* shape-outside: circle(); */
-
 }
 
-
-#about-grid {
+#aboutGrid {
     text-align: justify;
 }
-/* 
-.circle {
-    shape-outside: circle(300px);
-    background-image: url('../../img/about-img.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 300px;
-    height: 300px;
-    float: left;
-    border-radius: 50%;
-} */
 
 .skills {
     border-radius: 2em;
@@ -96,21 +70,14 @@
     height: 60px;
     padding: 10px;
     box-shadow: 5px 5px rgb(46, 43, 43);
-
 }
-
-/* .skills:hover {
-    pointer: mouse;
-} */
 
 .center {
     padding-top: 15px;
 }
 
-
-
 @media only screen and (max-width: 600px) {
-    #about-img {
+    #aboutImg {
         width: 300px;
         height: 300px;
     }
@@ -118,19 +85,17 @@
     .skills {
         font-size: 15px;
     }
-
-
 }
 
 @media only screen and (max-width: 400px) {
-    #about-img {
+    #aboutImg {
         width: 220px;
         height: 220px;
     }
-
     .skills {
         font-size: 15px;
     }
-
-
+    #aboutPaper {
+        width: 95%;
+    }
 }

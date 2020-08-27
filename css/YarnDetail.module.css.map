@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,AAAA,CAChB,WAAW,CAAE,KAAK,CAClB,UAAU,CAAE,uDAAuD,CACnE,UAAU,CAAE,kDAAkD,CAC9D,UAAU,CAAE,oDAAoD,CAChE,UAAU,CAAE,+CAA+C,CAC3D,eAAe,CAAE,KAAK,CACzB,AAED,AAAA,kBAAkB,AAAA,CACd,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,IAAI,CACf",
+    "sources": [
+        "../src/pages/YarnDetail/YarnDetail.module.scss"
+    ],
+    "names": [],
+    "file": "YarnDetail.module.css"
+}

@@ -1,20 +1,19 @@
 import React from 'react';
 import Intro from '../../components/Intro';
 import Container from '@material-ui/core/Container';
+import styles from './Homepage.module.scss';
 
-require ('./style.css');
 // {/* <a href="https://www.freepik.com/free-photos-vectors/tree">Tree vector created by macrovector - www.freepik.com</a> */}
 
 const HomePage = () => {
 
     return (
-        <wrapper id="mobile-phone">
-            <Container id="home-container" maxWidth="xl">
-                <Intro></Intro>
+        <wrapper id={styles.mobilePhone}>
+            <Container id={styles.homeContainer} maxWidth="xl">
+                <Intro/>
             </Container>
         </wrapper>
-    )
+    );
 }
 
 export default HomePage;
-
