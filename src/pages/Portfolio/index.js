@@ -32,6 +32,7 @@ export default function Portfolio() {
             onClick={data.id === 3? handleYarnDetail: null}
             btnTxtLive={data.btnTxtLive}
             btnHrefCode={data.btnHrefCode}
+            codeBtn={data.codeBtn}
             />
         )}
       </Grid>

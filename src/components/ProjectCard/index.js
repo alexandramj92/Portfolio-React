@@ -47,13 +47,13 @@ export default function ProjectCard(props) {
                             variant="contained">
                             {props.btnTxtLive}
                         </Button>
-                        <Button 
+                        {props.btnHrefCode === ""? null: <Button 
                             target="_blank" 
                             href={props.btnHrefCode} 
                             className={styles.portBtn} 
                             variant="contained">
                             See Code
-                        </Button>
+                        </Button>}
                     </CardActions> 
                 </Card>
             </Grid>

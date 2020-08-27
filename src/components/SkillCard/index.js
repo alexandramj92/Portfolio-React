@@ -30,7 +30,7 @@ export default function SkillCard(props) {
   const classes = useStyles();
 
   return (
-    <Grid item xs={12} sm={6} className={classes.root}>
+    <Grid item xs={12} md={6} className={classes.root}>
       <Card classes={classes.card}>
         <CardContent>
           <Grid alignItems='center' container spacing={2}>
