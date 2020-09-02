@@ -8,6 +8,11 @@
     border: 25px solid #e499be;
     margin-top: 76px;
     z-index: 2;
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 0 .5rem 0 .5rem;
+    }
 }
 
 #palmImgSocial {
@@ -19,10 +24,7 @@
     z-index: -1;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
+
 
 
 

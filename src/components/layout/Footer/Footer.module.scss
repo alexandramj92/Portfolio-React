@@ -8,13 +8,19 @@
         padding: 10px;
         width: 45px;
         display: grid;
-        a:hover{
-            color: rgba(255, 255, 255, 0.644);
-        }
-        .resumeIcon:hover{
-            fill: rgba(255, 255, 255, 0.644);
-        }
     }
+
+    a {
+        color: black;
+    }
+
+    a:hover{
+        color: rgba(255, 255, 255, 0.644);
+    }
+    .resumeIcon:hover{
+        fill: rgba(255, 255, 255, 0.644);
+    }
+
     .resumeIcon{
         cursor: pointer;
         transform: rotate(-90deg);

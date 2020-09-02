@@ -2,7 +2,6 @@ import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Palm from '../../assets/img/palm-tree-3.png';
 import styles from './SocialCard.module.scss';
@@ -21,10 +20,7 @@ export default function SocialCard() {
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/amj92/"> 
           <LinkedInIcon fontSize="large"/> 
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alexandramj92/"> 
-          <InstagramIcon fontSize="large"/> 
-        </a>         
+        </a>       
       </CardContent>
     </Card>
   );

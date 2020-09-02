@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Arrow from '@material-ui/icons/PlayCircleFilled';
 import { navigate } from '@reach/router';
@@ -30,10 +29,7 @@ export default function Footer() {
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/amj92/"> 
                 <LinkedInIcon fontSize="medium"/>
-            </a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alexandramj92/"> 
-                <InstagramIcon fontSize="medium"/>
-            </a>  
+            </a> 
             <Resume onClick={handleResume} className={styles.resumeIcon} fontSize="medium"/>
         </div> : null}
         <Arrow onClick={handleClick} fontSize="large" className={open? styles.arrowOpen: styles.arrowClosed}/>
