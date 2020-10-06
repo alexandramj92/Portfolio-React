@@ -52,7 +52,7 @@ export default function ProjectCard(props) {
                             href={props.btnHrefCode} 
                             className={styles.portBtn} 
                             variant="contained">
-                            See Code
+                            {props.codeBtnTxt}
                         </Button>}
                     </CardActions> 
                 </Card>

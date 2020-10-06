@@ -5,7 +5,7 @@ const Resume = () => {
 
     return (
             <iframe title="resume" src="https://resume.creddle.io/resume/hsdmjzmu6vl"
-            width="100%" height="100vh" seamless></iframe>
+            width="100%" height="900vh" seamless></iframe>
     );
 }
 

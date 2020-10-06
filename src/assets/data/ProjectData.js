@@ -1,16 +1,5 @@
 export const projectData = [
     {
-        id: 5,
-        imgSrc: "https://res.cloudinary.com/deukmsk03/image/upload/v1598545973/patchbayLogo_cipa5j.svg",
-        projectTitle: "Instrument Listing Page",
-        compWeb: "",
-        compAndLoc: "Patchbay, Los Angeles",
-        projectDes: "Listing page for instrument rental website. Tech stack includes React, Redux, JavaScript, and Ruby on Rails. The listing page allows the user to view images of the instrument, its location, reviews, similar listings, and submit a rental request.",
-        btnHrefLive: "https://patchbay-react.herokuapp.com/listings/14",
-        btnTxtLive: "See Website",
-        btnHrefCode: "",
-    },
-    {
         id: 4,
         imgSrc: "https://res.cloudinary.com/deukmsk03/image/upload/v1598542910/promotely_logo_1_gk8ttj.png",
         projectTitle: "Advertiser Facing Webpage",
@@ -20,6 +9,18 @@ export const projectData = [
         btnHrefLive: "https://promotely.la/advertiser",
         btnTxtLive: "See Website",
         btnHrefCode: "",
+    },
+    {
+        id: 5,
+        imgSrc: "https://res.cloudinary.com/deukmsk03/image/upload/v1598545973/patchbayLogo_cipa5j.svg",
+        projectTitle: "Instrument Listing Page",
+        compWeb: "",
+        compAndLoc: "Patchbay, Los Angeles",
+        projectDes: "Listing page and search results page for instrument rental website. Tech stack includes React, Redux, JavaScript, and Ruby on Rails. The listing page allows the user to view images of the instrument, its location, reviews, similar listings, and submit a rental request. The search results page allows the user to filter and sort their search based on distance, price, and reviews.",
+        btnHrefLive: "https://patchbay-react.herokuapp.com/listings/19",
+        btnTxtLive: "Listing Page",
+        btnHrefCode: "https://patchbay-react.herokuapp.com/browse?q=cymbal",
+        codeBtnTxt: "Search Results Page"
     },
     { 
         id: 1,
@@ -31,6 +32,7 @@ export const projectData = [
         btnHrefLive: "https://chelsea-chocolate-factory.herokuapp.com/",
         btnTxtLive: "See Website",
         btnHrefCode: "https://github.com/alexandramj92/custom-chocolate",
+        codeBtnTxt: "See Code"
     },
     {
         id: 2,
@@ -42,6 +44,7 @@ export const projectData = [
         btnHrefLive: "https://zoe-project.herokuapp.com/",
         btnTxtLive: "See Website",
         btnHrefCode: "https://github.com/alexandramj92/Zoe-Web-App-For-Teachers",
+        codeBtnTxt: "See Code"
     },
     {
         id: 3,
@@ -53,5 +56,6 @@ export const projectData = [
         btnHrefLive: "",
         btnTxtLive: "See Detail",
         btnHrefCode: "https://github.com/alexandramj92/Yarn-Mobile-Preview-Module",
+        codeBtnTxt: "See Code"
     }
 ]

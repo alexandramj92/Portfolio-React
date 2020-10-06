@@ -33,6 +33,7 @@ export default function Portfolio() {
             btnTxtLive={data.btnTxtLive}
             btnHrefCode={data.btnHrefCode}
             codeBtn={data.codeBtn}
+            codeBtnTxt={data.codeBtnTxt}
             />
         )}
       </Grid>
